@@ -209,7 +209,7 @@ TABS = [
     ("⑥",  "JOIN"),
     ("⑦",  "ANSI 함수"),
     ("🚀", "복합실전"),
-    ("✏️", "연습과제"),
+    ("✏️", "연습문제"),
 ]
 N = len(TABS)
 
@@ -1481,12 +1481,12 @@ ORDER BY basis_ym;""",
 
 
 # ════════════════════════════════════════════════════════════════
-# 10. 자유 실습 & 연습과제
+# 10. 자유 실습 & 연습문제
 # ════════════════════════════════════════════════════════════════
 elif idx == 10:
-    st.markdown('<div class="sec">✏️ 자유 실습 & 연습과제</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec">✏️ 자유 실습 & 연습문제</div>', unsafe_allow_html=True)
 
-    t_free, t_quiz = st.tabs(["🔓 자유 실습", "📝 연습과제 (정답 포함)"])
+    t_free, t_quiz = st.tabs(["🔓 자유 실습", "📝 연습문제 (정답 포함)"])
 
     with t_free:
         c1, c2 = st.columns(2)
